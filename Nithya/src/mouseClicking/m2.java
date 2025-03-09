@@ -5,6 +5,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
 public class m2 {
+	
+	//15 -2 ( 1st half)
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
@@ -14,6 +16,7 @@ public class m2 {
 		//ob.get("https://www.google.com");
 		ob.navigate().to("https://jqueryui.com/droppable/");
 		
+		// drag and drop
 		/* web elements : inside the frames 
 		 * switch our control to the frame 
 		 * id , name , index 

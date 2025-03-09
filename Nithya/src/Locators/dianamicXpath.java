@@ -4,6 +4,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class dianamicXpath {
+	
+	//16 -2 ( 1)s
+	
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -11,6 +15,7 @@ public class dianamicXpath {
 		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 		ChromeDriver ob = new ChromeDriver();
 		ob.get("https://www.mycontactform.com/");
+		
 		//following , preceding 
 		
 		//username text => login button 

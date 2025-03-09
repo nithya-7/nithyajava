@@ -3,6 +3,7 @@ package cssselector;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class c1 {
+	// 14 -2 ( firt) 
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -34,6 +35,9 @@ public class c1 {
 		
 	//6.tagname and sufx attr   syntax : tagname[attri$='sufx value']
 			//ob.findElementByCssSelector("input[type$='xt']");
+		
+		//7.tagname and substring of attr  syantx: tagname[attr*='substring value']
+		//ob.findElementByCssSelector("input[type*='te']").sendkeys("hi");
 			
 			//7. shrtcut => copy copy selector 
 			//ob.findElementByCssSelector("#user").sendKeys("ji");

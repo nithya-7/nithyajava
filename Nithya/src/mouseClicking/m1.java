@@ -5,6 +5,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
 public class m1 {
+	
+	//15 1
 
 	//private static final String Actions ac  = null;
 
@@ -16,7 +18,7 @@ public class m1 {
 		//ob.get("https://www.google.com");
 		ob.navigate().to("https://www.mycontactform.com/");
 		
-		/*click
+		/* click
 		 * double click 
 		 * right click - context click 
 		 * mouse hovering
@@ -34,7 +36,7 @@ public class m1 {
 		//ac.click(ele).build().perform();
 		//ac.doubleClick(ele).build().perform();
 		//ac.moveToElement(ele).build().perform();
-		//ac.contextClick(ele).build().perform();
+		//ac.contextClick(ele).build().perform(); //is a right click
 		ac.clickAndHold(ele).build().perform();
 		Thread.sleep(3000);
 		//ob.quit();

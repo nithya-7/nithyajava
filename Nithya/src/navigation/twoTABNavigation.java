@@ -6,7 +6,7 @@ import java.util.Set;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class twoTABNavigation {
-
+//16 - 3 ( 2 )
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
@@ -15,8 +15,9 @@ public class twoTABNavigation {
 	    ob.get("http:\\www.google.com");
 	    ob.manage().window().maximize();
 
-	   //open seleniumeasy.com in new tab 
+	   //open ,ycontactform.com in new tab 
 	 ob.executeScript("window.open('https://www.mycontactform.com','_blank');");
+	 
 	//get the control of first tab: driver.getwindowhandle()=> String => parent 
 	 //get the control of both tabs: driver.getwindowhandles() s1={google, mycontactform.com} 
 

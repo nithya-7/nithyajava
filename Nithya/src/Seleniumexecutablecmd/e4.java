@@ -13,8 +13,9 @@ public class e4 {
 		//ob.get("https://www.google.com");
 		ob.navigate().to("https://www.letskodeit.com/practice");
 		
-		// alert popup msgbox
-		//ob.executeScript ("alert ('time out')");//ok
+		// alert or popup  or msgbox
+		
+		//ob.executeScript ("alert ('time out')");  // only has ok button
 		
 		ob.executeScript("window.confirm('time out')");
 		Thread.sleep(3000);

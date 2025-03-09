@@ -8,6 +8,8 @@ import org.openqa.selenium.interactions.Actions;
 
 
 public class slider {
+	
+	// 15 -2 ( 2nd )
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -18,8 +20,8 @@ public class slider {
 		
 		//drag and drop by
 		//slider :x, y
-		// horizontal slider : move along y axis , x value will be 0
 		// horizontal slider : move along x axis , y value will be 0
+		// vertical  slider : move along y axis , x value will be 0
 		
 		//web elements : inside the frame 
 		// switch our control to that frame 

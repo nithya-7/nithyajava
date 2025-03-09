@@ -5,6 +5,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
 public class drpdownBut {
+	
+	//14 =2 ( 3rd)
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -13,8 +15,12 @@ public class drpdownBut {
 		ChromeDriver ob = new ChromeDriver();
 		ob.navigate().to("https://www.letskodeit.com/practice");
 		
+		// using the ID locators 
+		
 		//create an obj for select class
+		
 		//pass dropdown box as input
+		
 		//index/value/visible text 
 		
 		WebElement ele = ob.findElementById("carselect");

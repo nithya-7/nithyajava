@@ -15,6 +15,7 @@ public class rePositioning {
 		//create an obj for point class 
 		//pass x and y value in it 
 		//apply it on the window 
+		
 		Point p = new Point(234,456);
 		ob.manage().window().setPosition(p);
 		ob.quit();

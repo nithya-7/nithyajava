@@ -3,6 +3,7 @@ package seleniumget;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class g1 {
+	// 02 12(2) - rec date 
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -13,13 +14,17 @@ public class g1 {
 		
 	// title 
 		System.out.println(ob.getTitle());
+		
 		//url
 		System.out.println(ob.getCurrentUrl());
+		
 		//size 
 		// height and width of the window 
 		System.out.println(ob.manage().window().getSize());
+		
 		// position : x and y value of the window
 		System.out.println(ob.manage().window().getPosition());
+		
 		//getting brwoser details 
 		System.out.println(ob.getCapabilities());
 		ob.quit();
